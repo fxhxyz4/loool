@@ -79,6 +79,14 @@ a {
   color: #fff;
   font-size: 30px;
   padding: 10px 46px;
+  background: var(--btn-color);
+  background-size: 1000% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: text 111ms normal infinite;
+          animation: text 111ms normal infinite;
 }
 
 .is-hidden {

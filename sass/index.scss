@@ -75,6 +75,8 @@ a {
 	color: #fff;
 	font-size: 30px;
 	padding: 10px 46px;
+	background: var(--btn-color);
+	@include color;
 }
 
 .is-hidden {
