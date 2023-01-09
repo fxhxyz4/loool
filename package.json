@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"license": "ISC",
 	"main": "index.js",
-	"dependencies": {
-		"sass": "^1.56.2"
+	"devDependencies": {
+		"sass": "^1.57.1"
 	}
 }

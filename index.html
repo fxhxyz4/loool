@@ -19,27 +19,22 @@
 				<button type="button" class="hero__btn" id="btn"><b>click</b></button>
 			</div>
 			<div class="div is-hidden" id="div">
-				<form action="">
-					<label for="">
-						Card number
-						<input type="text" placeholder="9823 3214 8431 7430" />
-					</label>
-					<label for="">
-						Expiration date
-						<input type="text" placeholder="12/28" />
-					</label>
-					<label for="">
-						Card name
-						<input type="text" placeholder="FirstName LastName" />
-					</label>
-					<label for="">
-						Cvv
-						<input type="text" placeholder="333" />
-					</label>
+				<form action="#" name="lul" method="post" enctype="application/x-www-form-urlencoded">
+					<label for="cardnumber"> Card number </label>
+					<input type="text" id="cardnumber" placeholder="9823 3214 8431 7430" />
+					<label for="exdate"> Expiration date </label>
+					<input type="text" id="exdate" placeholder="12/28" />
+					<label for="cardname"> Card name </label>
+					<input type="text" id="cardname" placeholder="FirstName LastName" />
+					<label for="cvv"> Cvv </label>
+					<input type="text" id="cvv" placeholder="333" />
+					<label class="label"> you gay? </label>
+					<div class="flex">
+						<input type="radio" name="huh" id="huh" value="yes" checked /> YES <input type="radio" name="huh" id="huh2" value="no" /> No!
+					</div>
 					<button type="button" id="heh">click</button>
 				</form>
 			</div>
-
 			<p id="lol"></p>
 		</main>
 		<script src="./js/index.js"></script>
